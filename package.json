@@ -1,0 +1,31 @@
+{
+  "name": "A-Frame_1",
+  "version": "1.0.0",
+  "description": "My first project learning A-Frame",
+  "main": "script.js",
+  "ghpages": "ghpages -p gh-pages/",
+  "precommit": "npm run lint",
+  "license": "none",
+  "dependencies": {
+    "aframe": {
+      "version": "1.0.4",
+      "resolved": "https://registry.npmjs.org/aframe/-/aframe-1.0.4.tgz",
+      "integrity": "sha512-iG/4VyRt22zUPxDsFjP4SHUXNPGIStM2hHX/iPblht6dtN8m09e7LAaFq4iQdXoT0EkZBWEVmXVBF1J7Tca3QQ==",
+      "requires": {
+        "custom-event-polyfill": "^1.0.6",
+        "debug": "github:ngokevin/debug#noTimestamp",
+        "deep-assign": "^2.0.0",
+        "document-register-element": "github:dmarcos/document-register-element#8ccc532b7f3744be954574caf3072a5fd260ca90",
+        "load-bmfont": "^1.2.3",
+        "object-assign": "^4.0.1",
+        "present": "0.0.6",
+        "promise-polyfill": "^3.1.0",
+        "super-animejs": "^3.1.0",
+        "super-three": "^0.111.6",
+        "three-bmfont-text": "github:dmarcos/three-bmfont-text#1babdf8507c731a18f8af3b807292e2b9740955e",
+        "webvr-polyfill": "^0.10.10"
+      }
+    }
+  },
+  "author": "Jessamine Brown"
+}
